@@ -917,7 +917,7 @@ const db = [
     genero: 2,
     raza: 17,
     procedencia: 1,
-    saga: 1,
+    saga: 6,
     pelo: 1,
     episodioAparicion: '289',
     serie: 2,
