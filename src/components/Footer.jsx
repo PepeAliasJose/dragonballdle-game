@@ -13,7 +13,7 @@ function Footer ({ short = false }) {
   return (
     <div
       className='inline-flex gap-2 items-center
-     justify-center p-2 bg-[var(--blue-soft)] rounded-full mb-5'
+     justify-center p-2 bg-[var(--blue-soft)] rounded-full mb-5 up-flat'
     >
       <a
         href='/info'

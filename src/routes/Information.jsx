@@ -13,7 +13,7 @@ function Information () {
         <SmallModeList />
       </header>
       <main className='flex flex-col justify-center items-center gap-5 mt-6 mb-12 px-3'>
-        <div className='p-10 max-w-xl mx-3 text-white bg-[var(--blue-soft)] rounded-3xl'>
+        <div className='p-10 max-w-xl mx-3 text-white bg-[var(--blue-soft)] rounded-3xl up-flat'>
           <h2 className='text-2xl font-semibold pb-5'>{t('info.title')}</h2>
           <div className='flex flex-col gap-5'>
             <p>{t('info.description')}</p>
@@ -33,6 +33,18 @@ function Information () {
             </p>
             <div className='flex flex-col gap-2'>
               <p>
+                DragonBall wiki:{' '}
+                <a
+                  className='underline'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://www.tiktok.com/@cebra_gamer'
+                >
+                  {' '}
+                  Valentin Sánchez{' '}
+                </a>{' '}
+              </p>
+              <p>
                 Photo editing and collection:{' '}
                 <a
                   className='underline'
@@ -43,14 +55,14 @@ function Information () {
                   @Sajilive
                 </a>
               </p>
-              <p>DragonBall wiki: Valentin Sánchez</p>
+
               <p>
                 Lead Programmer/Designer:{' '}
                 <a
                   className='underline'
                   target='_blank'
                   rel='noopener noreferrer'
-                  href='/'
+                  href='https://pepercfoundry.web.app/'
                 >
                   PepeRCFoundry
                 </a>

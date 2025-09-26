@@ -2,7 +2,7 @@ function ChCard ({ ch, t, correcto }) {
   return (
     <div
       className={
-        ' w-full inline-flex gap-4 justify-start items-center rounded-3xl px-4 h-20 text-white ' +
+        ' w-full inline-flex gap-4 justify-start items-center rounded-3xl up-flat px-4 h-20 text-white ' +
         (correcto ? ' bg-green-400 ' : ' bg-red-400 ')
       }
     >

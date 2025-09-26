@@ -150,12 +150,12 @@ function Shadow () {
         <SmallModeList />
         <div
           className='text-center px-5 py-3 rounded-3xl mx-3 text-white
-                 backdrop-blur-sm backdrop-brightness-[80%] w-full max-w-xl'
+                 backdrop-blur-sm backdrop-brightness-[80%] w-full max-w-xl up-flat'
         >
           <h2 className='text-3xl font-black'>{t('modoShadow.gameDisplay')}</h2>
           <p className='mt-3'>{t('gameDisplay.smallText')}</p>
         </div>
-        <div className='text-white p-2 px-4 rounded-2xl backdrop-brightness-[80%]'>
+        <div className='text-white p-2 px-4 rounded-2xl backdrop-brightness-[80%] up-flat'>
           <p>
             {' '}
             {t('clasic.yesterdayCharacter')}{' '}

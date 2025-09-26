@@ -3,13 +3,13 @@ function GameMode ({ href, title, subtitle, img, event, expand = false }) {
     <a
       href={href}
       className='w-full max-w-sm hover:scale-105
-       transition-transform rounded-full shadow-xl'
+       transition-transform duration-150 rounded-full shadow-xl '
       onClick={event}
     >
       <div
         className='w-full p-2 rounded-full 
       bg-[var(--blue-soft)] inline-flex
-       text-white items-center gap-5'
+       text-white items-center gap-5 up-flat'
       >
         <img
           className={expand && ' scale-105 '}

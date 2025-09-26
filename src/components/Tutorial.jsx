@@ -17,11 +17,15 @@ const Tutorial = () => {
 
   return (
     <div className={hidden && 'hidden'}>
-      <div className='p-4 rounded-2xl bg-gray-100 w-fit flex flex-col gap-4 mx-3'>
-        <div className='w-full inline-flex justify-between'>
+      <div className='p-4 rounded-2xl bg-gray-100 w-fit flex flex-col gap-4 mx-3 up-flat'>
+        <div className='w-full inline-flex justify-between items-center'>
           <p>{t('learn.title')}</p>
-          <button onClick={hideTutorial} aria-label='Cerrar indicadores'>
-            <XMarkIcon className='size-6 ' />
+          <button
+            onClick={hideTutorial}
+            aria-label='Cerrar indicadores'
+            className='p-1 rounded-full border-[1px]'
+          >
+            <XMarkIcon className='size-5 ' />
           </button>
         </div>
         <div className='grid grid-cols-5 grid-rows-subgrid gap-2 text-center'>

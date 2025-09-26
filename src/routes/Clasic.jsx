@@ -145,7 +145,7 @@ function Clasic () {
         <SmallModeList />
         <div
           className='text-center px-5 py-3 rounded-3xl mx-3 text-white
-         backdrop-blur-sm backdrop-brightness-[80%]  max-w-xl'
+         backdrop-blur-sm backdrop-brightness-[80%]  max-w-xl up-flat'
         >
           <h2 className='text-3xl font-black'>{t('gameDisplay.title')}</h2>
           <p className='mt-3'>{t('gameDisplay.smallText')}</p>
@@ -223,13 +223,14 @@ function Clasic () {
           <div className='w-full max-w-96 px-3'>
             <Select
               aria-label='Seleccinonar personaje'
-              className='w-full '
+              className=''
               placeholder='Goku ...'
               styles={{
                 control: e => ({
                   ...e,
                   borderRadius: '20px',
                   border: 0,
+
                   ':hover': { border: 0 },
                   ':active': { border: 0 },
                   ':focus': { border: 0 }
@@ -289,7 +290,7 @@ function Clasic () {
             />
           </div>
         )}
-        <div className='text-white p-2 px-4 rounded-2xl backdrop-brightness-[80%]'>
+        <div className='text-white p-2 px-4 rounded-2xl backdrop-brightness-[80%] up-flat'>
           <p>
             {' '}
             {t('clasic.yesterdayCharacter')}{' '}
@@ -384,7 +385,7 @@ function GameTable ({ selectedCh, todayCh }) {
     <div className='w-full max-w-4xl overflow-x-scroll px-3 '>
       <div
         className='mx-auto rounded-3xl backdrop-blur-lg backdrop-brightness-[80%] text-shadow-lg
-       p-4 grid grid-cols-8 grid-rows-subgrid text-center text-white gap-3 min-w-max w-max'
+       p-4 grid grid-cols-8 grid-rows-subgrid text-center text-white gap-3 min-w-max w-max up-flat'
       >
         <p>{t('tableTitles.ch')} </p>
         <p> {t('tableTitles.sex')} </p>

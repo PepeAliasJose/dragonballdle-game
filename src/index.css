@@ -3,6 +3,9 @@
 :root {
   --blue: #506795;
   --blue-soft: #5c74a3;
+
+  --light-border: hsla(0, 0%, 100%, 0.55);
+  --dark-border: rgba(0, 0, 0, 0.15);
 }
 
 body {
@@ -127,4 +130,29 @@ code {
 .rastreador {
   font-family: scouter_font;
   text-shadow: 0px 0px 2px black;
+}
+
+.up {
+  box-shadow: 3px 3px 4px var(--dark-border),
+    inset 1px 1px 1px var(--light-border);
+}
+
+.up-flat {
+  box-shadow: inset -1px -1px 1px var(--dark-border),
+    inset 1px 1px 1px var(--light-border);
+}
+
+.down {
+  box-shadow: 1px 1px 2px var(--light-border),
+    inset 2px 2px 2px var(--dark-border);
+}
+
+.out-rounded {
+  border-radius: 25px;
+  background: var(--bg);
+}
+
+.in-rounded {
+  border-radius: 25px;
+  background: var(--bg);
 }

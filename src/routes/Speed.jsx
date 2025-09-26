@@ -175,7 +175,7 @@ function Speed () {
         <SmallModeList />
         <div
           className='text-center px-5 py-3 rounded-3xl mx-3 text-white
-                 backdrop-blur-sm backdrop-brightness-[80%] w-full max-w-xl'
+                 backdrop-blur-sm backdrop-brightness-[80%] w-full max-w-xl up-flat'
         >
           <h2 className='text-3xl font-black'>{t('speed.gameDisplay')}</h2>
           <p className='mt-3'>{t('gameDisplay.smallText')}</p>
@@ -240,7 +240,7 @@ function Speed () {
           <div className='w-full flex flex-col gap-5'>
             <div
               className='text-3xl sm:text-6xl rounded-3xl bg-[var(--blue-soft)] 
-            p-2  text-white w-full pt-1 inline-flex items-center justify-center'
+            p-2  text-white w-full pt-1 inline-flex items-center justify-center up-flat'
             >
               <p>{String(timeLeft).padStart(3, '0')} s</p>
             </div>
